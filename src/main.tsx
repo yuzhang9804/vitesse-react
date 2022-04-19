@@ -6,7 +6,7 @@ import '@unocss/reset/tailwind.css'
 import './styles/main.css'
 import 'uno.css'
 
-const root = createRoot(document.getElementById('root') as HTMLElement)
+const root = createRoot(document.getElementById('root')!)
 
 root.render(
   <StrictMode>

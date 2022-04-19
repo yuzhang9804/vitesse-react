@@ -11,6 +11,7 @@ export default defineConfig({
       '~/': `${resolve(__dirname, 'src')}/`
     }
   },
+
   plugins: [
     React(),
     Pages(),
@@ -19,10 +20,8 @@ export default defineConfig({
       imports: [
         'react',
         'react-router-dom'
-      ]
+      ],
+      dts: true
     })
-  ],
-  test: {
-    environment: 'jsdom'
-  }
+  ]
 })
