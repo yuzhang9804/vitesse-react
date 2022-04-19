@@ -3,7 +3,7 @@
 </p>
 
 <h6 align='center'>
-<a href="https://vitesse-react.netlify.app/">Live Demo</a>
+<a href="https://vitesse-react.vercel.app/">Live Demo</a>
 </h6>
 
 <h5 align='center'>
@@ -42,7 +42,7 @@
 
 ### Plugins
 
-- [Vue Router](https://github.com/vuejs/vue-router)
+- [React Router](https://reactrouter.com/)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 
@@ -50,14 +50,14 @@
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse-lite/generate).
+[Create a repo from this template on GitHub](https://github.com/yuzhang9804/vitesse-react/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit antfu/vitesse-react my-vitesse-app
+npx degit yuzhang9804/vitesse-react my-vitesse-app
 cd my-vitesse-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
