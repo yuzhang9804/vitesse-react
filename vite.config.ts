@@ -23,5 +23,9 @@ export default defineConfig({
       ],
       dts: true
     })
-  ]
+  ],
+
+  test: {
+    environment: 'jsdom'
+  }
 })
