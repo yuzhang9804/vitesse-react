@@ -1,6 +1,12 @@
 {
   "commentTranslate.multiLineMerge": true,
   "cSpell.words": [
+    "Attributify",
+    "Unocss",
+    "unplugin",
+    "vite",
+    "vitejs",
+    "Vitesse",
     "Vitest"
   ]
 }
